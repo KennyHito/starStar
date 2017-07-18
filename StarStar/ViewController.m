@@ -30,7 +30,7 @@
     [self.view addSubview:star];
     
     [star setScore:0 withAnimation:YES completion:^(BOOL finished) {
-        
+        NSLog(@"这里可以设置相关的内容");
     }];
 }
 
